@@ -8,7 +8,7 @@ from aiogram.types import (CallbackQuery, InlineKeyboardButton,
 
 # Вместо BOT TOKEN HERE нужно вставить токен вашего бота,
 # полученный у @BotFather
-BOT_TOKEN = '6770547708:AAESTRQgbjl1lPqv4DPZXxeYOUVbb7OPyk4'
+BOT_TOKEN = ''
 redis = Redis(host='localhost')
 # Инициализируем хранилище (создаем экземпляр класса MemoryStorage)
 storage = RedisStorage(redis=redis)
