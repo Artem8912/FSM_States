@@ -8,7 +8,7 @@ from aiogram.fsm.state import State,StatesGroup,default_state
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 
-BOT_TOKEN = '6770547708:AAESTRQgbjl1lPqv4DPZXxeYOUVbb7OPyk4'
+BOT_TOKEN = ''
 redis = Redis(host='localhost')
 storage=RedisStorage(redis=redis)
 dp =Dispatcher(storage=storage)
